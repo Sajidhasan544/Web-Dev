@@ -52,6 +52,21 @@ header div div h1{
 .banner-content{
     max-width: 580px;
 }
+.banner-content h4{
+    margin-left: 8px;
+    margin-bottom: 20px;
+    margin-top: 250px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.banner-discription{
+    margin-bottom: 50px;
+}
+
+.marr{
+    margin-bottom: 20px;
+}
 .banner{
     display: flex;
     justify-content: space-between;
