@@ -88,13 +88,6 @@ header div div h1 {
 }
 
 
-
-.bn{
-    
-}
-
-
-
 @media screen and (max-width:576px) {
 
     nav {
@@ -149,7 +142,6 @@ main{
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
-    ;
 }
 
 .infolist li {
@@ -191,6 +183,14 @@ main{
 
 
 @media screen and (max-width: 576px) {
+    .btn {
+        color: white;
+        background-color: #FD6E0A;
+        font-size: 16px;
+        padding: 12px 30px;
+        border-radius: 5px;
+        border: none;
+    }
     .div{
         width: 90vw;
     }
@@ -340,12 +340,14 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
 }
 
 .eduction {
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
