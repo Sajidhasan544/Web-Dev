@@ -342,6 +342,7 @@ section{
         align-items: center;
         gap: 5px;
     }
+
 }
 
 .eduction {
@@ -394,6 +395,9 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    .eduction{
+        width: 360px;
+    }
     .fotcont{
         flex-direction: column;
         gap: 20px;
@@ -465,19 +469,32 @@ footer {
 @media screen and (max-width: 576px) {
     .title{
         font-size: 18px;
+        width: 90vw;
     }
     .uni {
+        width: 90vw;
         font-size: 17px;
     }
     .ecu{
+        width: 90vw;
         font-size: 16px;
+        text-align: center;
         
     }
-
+    .elL{
+        margin-left: 20px;
+        width: 70vw;
+    }
+    
+    .el{
+        margin-left: 20px;
+    }
     .tx{
+        margin-left: 20px;
         width: auto;
     }
     .in{
+        margin-left: 20px;
         width: auto;;
     }
     .connect h1{
@@ -485,23 +502,27 @@ footer {
     }
     .connect {
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 50px;
         margin-top: 50px;
         width: 80vw;
     }
+    .connect img{
+        margin-left: 30px;
+    }
+
 
     .dd {
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
         font-size: 16px;
         margin-top: 20px;
         width: 70vw;
     }
 
     .mes {
-        margin-left: 50px;
-        margin-right: 50px;
+        padding-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 50px;
         width: 100%;
     }
