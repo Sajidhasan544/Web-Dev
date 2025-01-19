@@ -463,6 +463,17 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+    .title{
+        font-size: 18px;
+    }
+    .uni {
+        font-size: 17px;
+    }
+    .ecu{
+        font-size: 16px;
+        
+    }
+
     .tx{
         width: auto;
     }
